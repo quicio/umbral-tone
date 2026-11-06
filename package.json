@@ -18,7 +18,8 @@
   ],
   "scripts": {
     "test": "node --test",
-    "check": "npm test"
+    "check": "npm test",
+    "prepublishOnly": "npm test"
   },
   "peerDependencies": {
     "tone": "^14.7.77"
@@ -46,5 +47,9 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }

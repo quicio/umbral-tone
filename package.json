@@ -1,0 +1,50 @@
+{
+  "name": "@quicio/umbral-tone",
+  "version": "0.1.0",
+  "description": "Motor modular de audio y generación musical determinista para instrumentos web.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./generative": "./src/Generative.js",
+    "./audio": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "peerDependencies": {
+    "tone": "^14.7.77"
+  },
+  "devDependencies": {
+    "tone": "^14.7.77"
+  },
+  "keywords": [
+    "tonejs",
+    "web-audio",
+    "generative-music",
+    "euclidean-rhythms",
+    "sequencer",
+    "music"
+  ],
+  "license": "MIT",
+  "author": "Quicio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quicio/umbral-tone.git"
+  },
+  "homepage": "https://github.com/quicio/umbral-tone#readme",
+  "bugs": {
+    "url": "https://github.com/quicio/umbral-tone/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

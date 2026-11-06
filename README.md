@@ -1,6 +1,6 @@
 # umbral-tone
 
-Motor modular de audio y generación musical determinista para instrumentos web. Es el núcleo de [Espiral](https://github.com/quicio/espiral).
+Motor modular de audio y generación musical determinista para instrumentos web. Es el núcleo de [Espiral](https://github.com/quicio/espiral), el instrumento generativo de [Quicio](https://github.com/quicio).
 
 - **Tone.js** para el audio.
 - Patrones de 16 pasos, Euclid, semilla y mutaciones.

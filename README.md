@@ -11,10 +11,11 @@ Motor modular de audio y generación musical determinista para instrumentos web.
 ## Instalación
 
 ```bash
-npm install tone @quicio/umbral-tone
+npm install tone
+npm install github:quicio/umbral-tone
 ```
 
-`tone` es una peer dependency: la versión que instala el consumidor es la que usa el motor.
+El paquete todavía no está publicado en npm. Instalado desde GitHub conserva el nombre de importación `@quicio/umbral-tone`. `tone` es una peer dependency: la versión que instala el consumidor es la que usa el motor.
 
 ## Uso
 
